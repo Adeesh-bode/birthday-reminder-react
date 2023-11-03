@@ -36,6 +36,7 @@ export default function AddForm({ data , setData })
                         placeholder='Enter Name'
                         id="name"
                         onChange={(e)=>setName(e.target.value)}
+                        value={name}
                     ></input>
                 </label>
                 <label htmlFor='age'>
@@ -45,6 +46,7 @@ export default function AddForm({ data , setData })
                         placeholder='Enter Age'
                         id="age"
                         onChange={(e)=>setAge(e.target.value)}
+                        value={age}
                     ></input>
                 </label>
                 <label htmlFor='image'>
@@ -54,6 +56,7 @@ export default function AddForm({ data , setData })
                         placeholder='Enter Url'
                         id="image"
                         onChange={(e)=>setImage(e.target.value)}
+                        value={image}
                     ></input>
                 </label>
             </div>
